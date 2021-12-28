@@ -1,0 +1,28 @@
+{
+    "guildId": "913810699002716182",
+    "ownerId": "643072638075273248",
+    "statChannelId": "913846510410686495",
+    "logChannelId": "913825328298876929",
+    "rolesChannelId": "913834772978081812",
+    "verificationChannelId": "913855875427500073",
+    "footer": "MetaCraft | www.metacraft.earth",
+    "activity": {
+        "name": "www.metacraft.earth",
+        "type": "PLAYING",
+        "status": "online"
+    },
+    "ticket": {
+        "channelId": "913834817672585287",
+        "adminRoleId": "913821461326725260",
+        "categoryId": "914522345580941322"
+    },
+    "roles": [
+        "913820667114311750",
+        "913820689159577601",
+        "913820428047355905"
+    ],
+    "verification": {
+        "channelId": "913855875427500073",
+        "roleId": "913819900043227147"
+    }
+}

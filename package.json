@@ -1,0 +1,35 @@
+{
+  "name": "metacraft",
+  "version": "1.0.0",
+  "description": "official bot for metacraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiebeBaree/MetaCraft.git"
+  },
+  "keywords": [
+    "metaverse",
+    "discord",
+    "bot",
+    "nodejs",
+    "discordjs"
+  ],
+  "author": "Siebe Baree",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SiebeBaree/MetaCraft/issues"
+  },
+  "homepage": "https://github.com/SiebeBaree/MetaCraft#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2"
+  }
+}
