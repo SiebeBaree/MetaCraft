@@ -12,7 +12,6 @@ client.event = new Collection();
 client.config = require('./config.json');
 client.logger = require('./tools/logger');
 client.tools = require('./tools/tools');
-client.resolver = require('./tools/resolvers');
 client.database = require('./database/mongoose');
 
 async function init() {
