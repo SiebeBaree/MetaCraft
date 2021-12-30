@@ -32,7 +32,7 @@ module.exports.execute = async (client, interaction, data) => {
             .setEmoji("📄"),
         new MessageButton()
             .setCustomId("ticketCreatePartnership")
-            .setLabel("Partership")
+            .setLabel("Partnership")
             .setStyle("SUCCESS")
             .setEmoji("🔰")
     )
