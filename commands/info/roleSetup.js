@@ -13,8 +13,8 @@ module.exports.execute = async (client, interaction, data) => {
 > ✓ Can change nickname\n
 :art: **__Creator Roles:__**
 > <@&913820823717044234> ➣ Have a Youtube or Twitch channel with at least minimum requirements. (Requirements in <#913824922692894801>)
-> ✓ Can post videos/streams in <#> (only when you play on the MetaCraft server)
-> ✓ Can access <#> and <#>
+> ✓ Can post videos/streams in <#925384021066805318> (only when you play on the MetaCraft server)
+> ✓ Can access <#925383011678167050>
 > ✓ Can change nickname
 > 
 > <@&913820354131140679> ➣ Creators who create art or build cool things on plots in MetaCraft.
@@ -23,7 +23,7 @@ module.exports.execute = async (client, interaction, data) => {
 > <@&913820124216164432> ➣ Have at least 1 plot in your account\n
 **__Nitro Booster__**
 > <@&914886180812759071> ➣ Given to those that boost the server
-> ✓ Can access <#>
+> ✓ Can access <#925383011678167050>
 > ✓ Can change nickname\n
 **__Staff Roles__**
 > <@&913820708843450398> ➣ Run our social media platforms
