@@ -7,7 +7,7 @@ module.exports.execute = async (client, interaction, data) => {
         .setColor("BLUE")
         .setTitle(`:ticket: Create a Ticket`)
         .setDescription(`Need help with something or is there anything you want to tell the staff? **Create your ticket now!**\n\n__Click on any of the buttons to create a ticket:__\n:star: General Ticket\n:warning: Report Someone\n:cockroach: Report Bugs\n:page_facing_up: Staff Application\n:beginner: Partnership Ticket\n\n**Languages:** English :flag_gb:/:flag_us:, Dutch :flag_nl:/:flag_be:\n\n*If you cannot open a ticket, you probably have a ticket open already.*`)
-        .setFooter(client.config.footer)
+        .setFooter({ text: client.config.footer })
 
     const row = new MessageActionRow().addComponents(
         new MessageButton()

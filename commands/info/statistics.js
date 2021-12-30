@@ -7,7 +7,7 @@ module.exports.execute = async (client, interaction, data) => {
     const newEmbed = new MessageEmbed()
         .setAuthor({ name: `Bot Statistics`, iconURL: client.user.avatarURL() })
         .setColor("BLUE")
-        .setFooter(client.config.footer)
+        .setFooter({ text: client.config.footer })
         .setTimestamp()
         .setThumbnail(`${client.user.avatarURL()}`)
         .addFields(

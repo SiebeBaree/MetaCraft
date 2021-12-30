@@ -50,7 +50,7 @@ module.exports.createTicket = async (client, interaction, reason = undefined) =>
         .setDescription(`Thank you for creating a ticket. We will answer you as soon as possible.\nDon't tag us as this will only slow down our repsonds.\n\n**Ticket Owner:** <@${interaction.member.id}>\n**Reason:** ${reason}`)
         .setThumbnail(interaction.member.user.avatarURL() || interaction.member.user.defaultAvatarURL)
         .setTimestamp()
-        .setFooter(client.config.footer)
+        .setFooter({ text: client.config.footer })
 
     const ticketCloseRow = new MessageActionRow().addComponents(
         new MessageButton()
